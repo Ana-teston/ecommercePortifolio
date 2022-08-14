@@ -1,13 +1,14 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import {
     createUserDocumentFromAuth,
     signInWithGooglePopup,
     signInWithEmailAndPassword, signInAuthUserWithEmailAndPassword
 } from "../../utils/firebase.config";
-import FormInput from "../form-input/form-input.component";
-import "./sign-in-form.styles.scss";
-import "../button/button.component"
 import Button from "../button/button.component";
+import { UserContext } from "../../context/user.context";
+import FormInput from "../form-input/form-input.component";
+import "../button/button.component";
+import "./sign-in-form.styles.scss";
 
 const defaultFromFields = {
     email: '',
@@ -18,6 +19,8 @@ const SignInForm = () => {
     const [formFields, setFormFields] = useState(defaultFromFields);
     const { email, password, } = formFields;
 
+    const { setCurrentUser } = useContext(UserContext);
+
     const resetFormFields = () => {
         setFormFields(defaultFromFields);
     };
@@ -25,6 +28,7 @@ const SignInForm = () => {
     const signInWithGoogle = async () => {
         const { user } = await signInWithGooglePopup();
         await createUserDocumentFromAuth(user);
+        setCurrentUser(user);
     }
 
 
@@ -32,11 +36,11 @@ const SignInForm = () => {
         event.preventDefault();
 
         try {
-            const response = await signInAuthUserWithEmailAndPassword(
+            const {user} = await signInAuthUserWithEmailAndPassword(
                 email,
                 password
             );
-            console.log(response);
+            setCurrentUser(user);
             resetFormFields();
         } catch (error) {
             switch (error.code) {
@@ -64,25 +68,21 @@ const SignInForm = () => {
             <span>Sign in with your email and password</span>
             <form onSubmit={handleSubmit}>
                 <FormInput
-                    label= "Email"
-                    inputOptions={{
-                        type: "text",
-                        required: true,
-                        onChange: handleChange,
-                        name: "email",
-                        value: email,
-                    }}
+                    label='Email'
+                    type='email'
+                    required
+                    onChange={handleChange}
+                    name='email'
+                    value={email}
                 />
 
                 <FormInput
-                    label= "Password"
-                    inputOptions={{
-                        type: "text",
-                        required: true,
-                        onChange: handleChange,
-                        name: "password",
-                        value: password,
-                    }}
+                    label='Password'
+                    type='password'
+                    required
+                    onChange={handleChange}
+                    name='password'
+                    value={password}
                 />
 
                 <div className='buttons-container'>
@@ -91,7 +91,6 @@ const SignInForm = () => {
                         Google sign in
                     </Button>
                 </div>
-
             </form>
         </div>
     );
