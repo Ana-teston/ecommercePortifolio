@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Classico",
+    "imageUrl": "https://images.unsplash.com/photo-1620921592619-652411a0d01a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGJyZWFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "price": 25
+  },
+  {
+    "id": 2,
+    "name": "Baguetes",
+    "imageUrl": "https://images.unsplash.com/photo-1620921592619-65…ufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "price": 18
+  },
+  {
+    "id": 3,
+    "name": "Brioche",
+    "imageUrl": "https://images.unsplash.com/photo-1620921592619-65…ufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "price": 35
+  },
+  {
+    "id": 4,
+    "name": "Croissants",
+    "imageUrl": "https://images.unsplash.com/photo-1596554928189-05ea9bfffe3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2873&q=80",
+    "price": 25
+  },
+  {
+    "id": 5,
+    "name": "Integral",
+    "imageUrl": "https://images.unsplash.com/photo-1596554928189-05ea9bfffe3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2873&q=80",
+    "price": 18
+  },
+  {
+    "id": 6,
+    "name": "Cinnamon roll",
+    "imageUrl": "https://images.unsplash.com/photo-1580959422798-c487f21d1a08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2456&q=80",
+    "price": 14
+  },
+  {
+    "id": 7,
+    "name": "Madeleines",
+    "imageUrl": "https://images.unsplash.com/photo-1580959422798-c487f21d1a08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2456&q=80",
+    "price": 18
+  },
+  {
+    "id": 8,
+    "name": "Tarte au chocolat",
+    "imageUrl": "https://images.unsplash.com/photo-1645752612050-11…fHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+    "price": 14
+  },
+  {
+    "id": 9,
+    "name": "Pates",
+    "imageUrl": "https://images.unsplash.com/photo-1505206448417-789506e24f62?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    "price": 16
+  }
+]
