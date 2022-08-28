@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Tradicionais",
+    "subtitle": "Comprar",
+    "imageUrl": "imagesBomjour/TradicionaisVitrineYeh-xintong-go3DT3PpIw4-unsplash.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Integrais",
+    "subtitle": "Comprar",
+    "imageUrl": "imagesBomjour/Integraisnicholas-barbaros-5k_Sr8exiaU-unsplash.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Especiais",
+    "subtitle": "Comprar",
+    "imageUrl": "imagesBomjour/EspeciaisFarhad-ibrahimzade-I0Vb0DejVZ0-unsplash.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Patisserie",
+    "subtitle": "Comprar",
+    "imageUrl": "imagesBomjour/PatisserieBethany-wigmore-6ECvZJ547l4-unsplash.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Muito +++",
+    "subtitle": "Comprar",
+    "imageUrl": "imagesBomjour/PizzaSquareAbhishek-hajare-0UcHlaN-hgQ-unsplash.jpg"
+  }
+]

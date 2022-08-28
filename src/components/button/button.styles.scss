@@ -6,7 +6,7 @@
   line-height: 50px;
   padding: 0 35px 0 35px;
   font-size: 15px;
-  background-color: black;
+  background-color: #706356;
   color: white;
   text-transform: uppercase;
   font-family: 'Source Sans Pro';
@@ -18,7 +18,7 @@
 
   &:hover {
     background-color: white;
-    color: black;
+    color: #706356;
     border: 1px solid black;
   }
 
@@ -27,18 +27,18 @@
     color: white;
 
     &:hover {
-      background-color: #1db8a9;
+      background-color: #706356;
       border: none;
     }
   }
 
   &.inverted {
     background-color: white;
-    color: black;
+    color: #706356;
     border: 1px solid black;
 
     &:hover {
-      background-color: black;
+      background-color: #706356;
       color: white;
       border: none;
     }
