@@ -5,7 +5,7 @@ import { UserContext } from "../../context/user.context";
 import { ReactComponent as BomJourLogo } from "../../assets/logobj.svg";
 import "./navigation.styles.scss";
 import { signOutUser } from "../../utils/firebase.config";
-import CartDropdown from "../../components/card-dropdown/cart-dropdown.component";
+import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component";
 import {CartContext} from "../../context/cart.context";
 
 const Navigation = () => {
