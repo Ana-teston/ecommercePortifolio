@@ -122,7 +122,7 @@ const SHOP_DATA = [
             {
                 id: 18,
                 name: 'Sonho',
-                imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+                imageUrl: 'imagesBomjour/SonhoMarkus-winkler-gXYELf4DXRY-unsplash.jpg',
                 price: 25,
             },
             {
@@ -140,7 +140,7 @@ const SHOP_DATA = [
             {
                 id: 21,
                 name: 'Torta de chocolate',
-                imageUrl: 'imagesBomjour/TarteauChocolatBruna-branco-6k1PJQpzFQo-unsplash.jpg)',
+                imageUrl: 'imagesBomjour/TarteauChocolatBruna-branco-6k1PJQpzFQo-unsplash.jpg',
                 price: 80,
             },
         ],
