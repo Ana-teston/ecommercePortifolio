@@ -15,7 +15,7 @@ export const Body = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  border: none;
   background-color: white;
   opacity: 0.7;
   position: absolute;
@@ -39,7 +39,7 @@ export const DirectoryItemContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  border: none;
   margin: 0 7.5px 15px;
   overflow: hidden;
   &:first-child {
